@@ -93,12 +93,12 @@ class VerticalLinearStepper extends React.Component {
       //   onClick={this.openModal}>Show Popup</Button>
       // </div>
       <div className={classes.root}>
-        <Stepper activeStep={activeStep} orientation="vertical">
+        {/* <Stepper activeStep={activeStep} orientation="vertical">
           {steps.map((label, index) => (
             <Step key={label}>
               <StepLabel>{label}</StepLabel>
               <StepContent>
-                <Typography paragraph gutterBottom>{getStepContent(index).split ('\n').map ((item, i) => <p key={i}>{item}</p>)}</Typography>
+                <Typography paragraph gutterBottom>{getStepContent(index).split ('\n').map ((item, i) => <h6 key={i}>{item}</h6>)}</Typography>
                 <div className={classes.actionsContainer}>
                   <div>
                     <Button
@@ -136,7 +136,7 @@ class VerticalLinearStepper extends React.Component {
               Done
             </Button>
           </Paper>
-        )}
+        )} */}
       </div>
       //</div>
     );
