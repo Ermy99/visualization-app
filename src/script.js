@@ -1,3 +1,5 @@
+import './index.css';
+
 var treeData = [
   {
     "name": "A",
