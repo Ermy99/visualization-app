@@ -256,6 +256,7 @@ class ProgressMobileStepper extends React.Component {
             </Button>
           }
         />
+
       </div>
     );
   }
